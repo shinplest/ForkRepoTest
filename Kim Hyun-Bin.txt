@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void)
+{
+	float wid, hei, leng, vol;
+	wid = 40, hei = 30, leng = 25;
+
+	vol = wid * hei * leng;
+
+	printf("The Swimming pool Volume is %f", vol);
+
+	return 0;
+
+}
